@@ -1,0 +1,10 @@
+.hello {
+  color: #ffcc00;
+  border: 6px solid #006847; }
+  .hello a {
+    color: rgba(0, 104, 71, 0.5);
+    color: grayscale(50%); }
+    .hello a:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=master.css.map */
