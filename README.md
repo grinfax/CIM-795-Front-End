@@ -8,7 +8,7 @@ This is the main repo for CIM 594/795
 
 [Advanced CSS Selectors](https://docs.google.com/presentation/d/1AUyRxq1Ip__Wb6R_noaTjjyQnmgouJigjuSL3XYvG5I/edit?usp=sharing)
 
-[SASS])https://docs.google.com/presentation/d/1uhfFxuHcajfIjMIhNryfdxRCAt9vWfjufS-kPJNl8Dk/edit?usp=sharing)
+[SASS](https://docs.google.com/presentation/d/1uhfFxuHcajfIjMIhNryfdxRCAt9vWfjufS-kPJNl8Dk/edit?usp=sharing)
 
 [media queries](https://docs.google.com/presentation/d/18lylN9PDPGNQlfykhu9IDg4vQbw9f_d3cQ5I1x9KrxQ/edit?usp=sharing)
 
