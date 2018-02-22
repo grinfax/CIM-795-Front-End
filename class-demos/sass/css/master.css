@@ -1,3 +1,14 @@
+.container {
+  background: pink; }
+  @media only screen and (min-width: 768px) {
+    .container {
+      background: orange; } }
+
+.china {
+  color: red; }
+  .china > .star {
+    color: green; }
+
 .hello {
   color: #ffcc00;
   border: 6px solid #006847; }

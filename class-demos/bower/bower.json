@@ -1,0 +1,22 @@
+{
+  "name": "Bower Demo",
+  "homepage": "https://github.com/grinfax/CIM-795-Front-End",
+  "authors": [
+    "Kim Grinfeder <kimgrinfeder@gmail.com>"
+  ],
+  "description": "Demo for Bower",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "d3": "^4.13.0"
+  }
+}
