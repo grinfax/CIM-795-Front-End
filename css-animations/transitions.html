@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Transitions</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style media="screen">
+    .trans {
+      background: #bada55;
+      transition-property: background width;
+      transition-duration: 2s;
+      transition-delay: 0.5s;
+      /* transition-timing-function: ease-in; */
+    }
+
+    .trans:hover {
+      background: #f9a3f4;
+      width: 120px;
+    }
+    </style>
+  </head>
+  <body>
+
+<div class="box trans">
+  I am a box
+</div>
+
+
+  </body>
+</html>
