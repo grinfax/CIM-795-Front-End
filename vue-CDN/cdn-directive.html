@@ -9,7 +9,7 @@
   <body>
     <div id="app">
       <p v-if="seen">Message Can Be Seen!</p>
-      <!-- <div v-text="message"></div> -->
+      <div v-text="message"></div>
       <p><button class="btn btn-lg btn-primary" v-on:click="seen = !seen">Toggle</button></p>
     </div>
 
@@ -18,7 +18,8 @@
      var app = new Vue({
            el: '#app',
            data: {
-               seen: true
+               seen: true,
+               message: "don't click that!"
            }
        })
 
