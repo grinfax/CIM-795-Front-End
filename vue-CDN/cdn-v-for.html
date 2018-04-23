@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vue CDN Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+
+  </head>
+  <body>
+    <div id="app">
+
+  <div class="ingredients">
+    <div class="holder">
+      <ul>
+        <li v-for="(data, index) in ingredients" :key='index'>{{index}}. {{data.ingredient}}</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <p v-if="ingredients.length >= 1">You will need more than one ingredient</p>
+  <p v-else>This is a single ingredient recipe (aka: fried egg)</p> -->
+
+
+   </div>
+
+
+     <script>
+     var app = new Vue({
+         el: '#app',
+           data() {
+              return {
+                ingredients: [
+                    { "ingredient": "egg" },
+                    { "ingredient": "flour" }
+                ]
+              }
+},
+
+     })
+
+ </script>
+
+  </body>
+</html>

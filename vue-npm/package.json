@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serv": "^0.2.4",
     "serve": "^6.5.5",
     "vue": "^2.5.16"
   }

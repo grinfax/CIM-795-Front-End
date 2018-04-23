@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vue CDN Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+<!-- Weather Key: 5106c6891d1750fc
+http://api.wunderground.com/api/5106c6891d1750fc/conditions/q/FL/Miami.json
+-->
+  </head>
+  <body>
+    <div class="vue-test" id="app">
+      <h1>Vue Test</h1>
+      <ul >
+        <li>
+          <h1>{{location}}</h1>
+          <p>xxx</p>
+          <hr />
+        </li>
+          <!-- {{post.results}} -->
+      </ul>
+
+    </div>
+
+
+
+
+
+     <script>
+     var app = new Vue({
+       el: '#app',
+       data() {
+         return {
+           location: 'xx',
+           temp_f: ''
+         }
+       },
+       methods: {
+         getPosts: function() {
+           $.ajax({
+           url : "http://api.wunderground.com/api/5106c6891d1750fc/geolookup/conditions/q/FL/Miami.json",
+            dataType : "jsonp",
+            success : function(parsed_json) {
+          this.location = "dddd"
+        // this.location = parsed_json['location']['city'];
+        // this.temp_f = parsed_json['current_observation']['temp_f'];
+       // alert("Current temperature in " + location + " is: " + temp_f);
+       }
+       });
+         }
+       },
+       mounted () {
+         this.getPosts()
+       }
+     });
+ </script>
+
+  </body>
+</html>
